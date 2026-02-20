@@ -1,0 +1,17 @@
+@font-face {
+    font-family: SolaimanLipi;
+    src: url(../fonts/SolaimanLipi.ttf);
+}
+
+@font-face {
+    font-family: BenSenHandwriting;
+    src: url(../fonts/BenSenHandwriting.ttf);
+}
+
+/**{*/
+/*    font-family: SolaimanLipi, sans-serif ;*/
+/*}*/
+
+/*.f-s-small{font-size: 15px;}*/
+/*.f-s-medium{font-size: 18px;}*/
+/*.f-s-large{font-size: 24px;}*/

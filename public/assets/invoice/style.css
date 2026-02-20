@@ -1,0 +1,51 @@
+@font-face {
+    font-family: SolaimanLipi;
+    src: url(../fonts/SolaimanLipi.ttf);
+}
+
+@font-face {
+    font-family: BenSenHandwriting;
+    src: url(../fonts/BenSenHandwriting.ttf);
+}
+*{
+    font-family: SolaimanLipi, sans-serif ;
+}
+
+.table td, .table th{
+    font-size: 15px;
+}
+
+input[type=number], .number{
+    font-family: SutonnyMJ;
+}
+
+.page-header-title{
+    font-size: 2em !important;
+}
+
+/*Loader Section Start*/
+#overlay{}
+.loader{
+    width:100px;
+    height:100px;
+    background-color:transparent;
+    position:fixed;
+    left:50%;
+    top:50%;
+    margin-left:-50px;
+    margin-top:-50px;
+    z-index: 99999999;
+}
+/*Loader Section End*/
+
+@media print {
+    div#printBox{
+        display: none !important;
+    }
+}
+
+.nav-fixed #layoutSidenav #layoutSidenav_nav .sidenav .sidenav-menu:hover {
+    overflow-y: scroll;
+}
+
+
